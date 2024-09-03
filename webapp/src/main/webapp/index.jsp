@@ -1,5 +1,5 @@
 <form action="action_page.php">
-  <div class="container">
+  <div class="container  ">
     <h1>New user Register  #JNJBjbn njnjkjkjknfkJAijmFN JAQIJFJFKNJ for DevOps Learning at Virtual TechBox Youtube Channel</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
