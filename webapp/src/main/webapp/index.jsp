@@ -1,10 +1,10 @@
 <form action="action_page.php">
   <div class="container  ">
     <h1>New user Register edit by satakshi </h1>
-    <p>Please fill in this form to create an account.</p>
+    <p>Please fill in this form to create an account. edit by Abdul Kadir</p>
     <hr>
      
-    <label for="Name"><b> Enter Your Name</b></label>
+    <label for="Name"><b> Enter Your Name </b></label>
     <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
     <br>
     
