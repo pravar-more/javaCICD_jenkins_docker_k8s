@@ -1,3 +1,25 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Refresh Page</title>
+    <script>
+        // Function to refresh the page every 5 seconds
+        function refreshPage() {
+            setTimeout(function() {
+                location.reload();
+            }, 5000); // 5000 milliseconds = 5 seconds
+        }
+    </script>
+</head>
+<body onload="refreshPage()">
+    <h1>This page will refresh every 5 seconds</h1>
+</body>
+</html>
+
 <form action="action_page.php">
   <div class="container  ">
     <h1>New user Registration </h1>
@@ -35,3 +57,5 @@
    <h1> See You Again </h1>
   
 </form>
+</body>
+</html>
