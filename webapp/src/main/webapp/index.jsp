@@ -11,12 +11,11 @@
         function refreshPage() {
             setTimeout(function() {
                 location.reload();
-            }, 5000); // 5000 milliseconds = 5 seconds
+            }, 10000); // 5000 milliseconds = 5 seconds
         }
     </script>
 </head>
 <body onload="refreshPage()">
-    <h1>This page will refresh every 5 seconds</h1>
 </body>
 </html>
 
