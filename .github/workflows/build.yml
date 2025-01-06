@@ -42,5 +42,8 @@
             ECR_REPOSITORY: ${{ secrets.REPO_NAME }}
             IMAGE_TAG: ${{ steps.get-commit-hash.outputs.commit-hash }}-${{ steps.get-timestamp.outputs.timestamp }}
           run: |
-            docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-            docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+            # docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+            # docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+            docker build -t usecase/javacicd_demo .
+            docker tag usecase/javacicd_demo:latest 034362066177.dkr.ecr.us-east-1.amazonaws.com/usecase/javacicd_demo:latest
+            docker push 034362066177.dkr.ecr.us-east-1.amazonaws.com/usecase/javacicd_demo:latest
