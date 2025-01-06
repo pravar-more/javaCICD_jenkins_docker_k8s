@@ -3,6 +3,12 @@
     push:
       branches:
         - main
+  
+  env:
+    ECR_REPOSITORY: ${{ secrets.REPO_NAME }}
+    EKS_CLUSTER_NAME: eks-cluster
+    AWS_REGION: us-east-1
+  
   jobs:
     Build:
       name: Build
