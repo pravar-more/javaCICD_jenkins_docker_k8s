@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  ECR_REPOSITORY: eksdeployment
+  ECR_REPOSITORY: usecase/javacicd_demo
   EKS_CLUSTER_NAME: eks-cluster
   AWS_REGION: us-east-1
 
